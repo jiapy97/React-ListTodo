@@ -1,0 +1,22 @@
+/* 底部footer的样式 */
+.todo-footer {
+    height: 40px;
+    line-height: 40px;
+}
+.todo-footer span {
+    margin-left: 10px;
+}
+.todo-footer button {
+    height: 29px;
+    display: inline-block;
+    float: right;
+    line-height: 20px;
+    margin-top: 6px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #bd362f;
+    color: #fff;
+    background-color: #da4f49;
+}

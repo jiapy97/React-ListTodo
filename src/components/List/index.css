@@ -1,0 +1,37 @@
+/* List部分的样式 */
+.todo-list {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0 ;
+}
+/* 每一个Item的样式 */
+.todo-list li {
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.todo-list li:last-child {
+    border-bottom: 1px solid white;
+}
+.todo-list li span {
+    margin-left: 5px;
+    font-size: 13px;
+}
+li button {
+    width: 54px;
+    height: 29px;
+    display: inline-block;
+    float: right;
+    line-height: 20px;
+    margin-top: 3px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #bd362f;
+    color: #fff;
+    background-color: #da4f49;
+    /* display: none; */
+}
